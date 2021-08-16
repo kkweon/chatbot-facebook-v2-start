@@ -4,19 +4,24 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kkweon/chatbot-facebook-v2-start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "dialogflow": "^0.8.2",
-    "express": "^4.16.4",
+    "body-parser": "^1.19.0",
+    "dialogflow": "^4.0.3",
+    "express": "^4.17.1",
     "request": "^2.88.0",
-    "uuid": "^3.3.2"
+    "typescript": "^4.3.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
   }
 }
